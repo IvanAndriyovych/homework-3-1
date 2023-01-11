@@ -130,17 +130,17 @@ letter-spacing: 0.02em;
 }
 
 .container-portfolio{
-    display: flex;
-   
-    margin-top: 96px;
-    margin-bottom: 72px;
-    gap: 24px;
+    
     margin-left: 271px;
   
 }
 
 .link-one-portfolio {
-        
+    display: flex;
+    gap: 24px; 
+    margin-top: 96px;
+    margin-bottom: 72px;
+    justify-content: center;  
 }
 
 .all {
@@ -150,12 +150,6 @@ font-weight: 600;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
-
-
-
-
-
-padding: 12px 24px;
 
 width: 69px;
 height: 48px;
@@ -172,13 +166,6 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 
 box-sizing: border-box;
-
-
-
-
-padding: 12px 24px;
-
-width: 116px;
 height: 48px;
 text-align: center;
 
@@ -198,7 +185,7 @@ box-sizing: border-box;
 flex-direction: row;
 justify-content: center;
 align-items: center;
-padding: 12px 24px;
+
 
 width: 78px;
 height: 48px;
@@ -215,7 +202,7 @@ box-sizing: border-box;
 flex-direction: row;
 justify-content: center;
 align-items: center;
-padding: 12px 24px;
+
 
 width: 101px;
 height: 48px;
@@ -233,7 +220,7 @@ box-sizing: border-box;
 flex-direction: row;
 justify-content: center;
 align-items: center;
-padding: 12px 24px;
+
 
 width: 126px;
 height: 48px;
@@ -248,7 +235,9 @@ height: 48px;
     display: flex;
     flex-wrap: wrap;
     gap: 24px;
+   row-gap: 48px;
     margin-bottom: 120px;
+
 }
 
 .type-portfolio {
@@ -281,7 +270,10 @@ margin-bottom: 32px;
 /*--------footer------------*/
 
 .footer {
-    background: #2E2F42
+    background: #2E2F42;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    display: flex;
       
 }
 .logo {
@@ -368,16 +360,18 @@ font-family: 'Roboto', sans-serif;
 }
 
 .header-main {
-    width: 1440px;
-    height: 72px;
+    
     display: flex;
+    padding-top: 24px;
+    padding-bottom: 24px;
+    
     
     
     }
 
 
 
-.logo-main {color: #4D5AE5;
+.logo {color: #4D5AE5;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
@@ -387,7 +381,7 @@ font-family: 'Roboto', sans-serif;
     
     }
 
-.logo-main-one {color: #2E2F42;
+.logo-main {color: #2E2F42;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
@@ -468,6 +462,7 @@ letter-spacing: 0.02em;
 
 
 
+
     
     }
    
@@ -509,19 +504,13 @@ display: block;
 margin: 0 auto;
 
 
-.section {
-    padding-top: 120px;
-    padding-bottom: 120px;
-
-}
 
 
    
 }
 .description {
     
-    padding-bottom: 120px;
-    padding-top: 120px;
+    
     display: flex;
     gap: 24px;
    
@@ -541,6 +530,7 @@ line-height: 1.2;
 letter-spacing: 0.02em;
 margin-bottom: 8px;
 
+
 }
 .description-text {
     color: #434455;
@@ -552,7 +542,6 @@ font-style: normal;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-margin-bottom: 24px;
 flex: none;
 order: 1;
 flex-grow: 0;
@@ -563,7 +552,6 @@ flex-grow: 0;
 font-size: 36px;
 line-height: 1.11;
 letter-spacing: 0.02em;
-margin-top: 120px;
 margin-bottom: 72px;
 text-align: center;
 
@@ -572,7 +560,7 @@ text-align: center;
    
     display: flex;
     gap: 24px;
-    margin-bottom: 120px;
+    
 }
 .type-title {
     box-sizing: border-box;
@@ -588,6 +576,7 @@ flex-grow: 0;
 .seconds {
     background: #F4F4FD ;
     padding-bottom: 120px;
+    padding-top: 120px;
    
 }
 
