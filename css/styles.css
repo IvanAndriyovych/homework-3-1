@@ -549,6 +549,8 @@ letter-spacing: 0.02em;
 margin-bottom: 8px;
 
 
+
+
 }
 .description-text {
     color: #434455;
@@ -592,7 +594,7 @@ flex-grow: 0;
 }
 
 .seconds {
-    background: #F4F4FD ;
+ 
     padding-bottom: 120px;
     padding-top: 120px;
    
