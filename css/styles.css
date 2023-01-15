@@ -134,8 +134,21 @@ letter-spacing: 0.02em;
 }
 
 
+
+
 .portfolio-main {
-    visibility: hidden;
+
+    .visually-hidden 
+        clip: rect(0 0 0 0);
+        clip-path: inset(50%);
+        height: 1px;
+        overflow: hidden;
+        position: absolute;
+        white-space: nowrap;
+        width: 1px;
+    
+    
+ 
     
   /*як правильно  написати команду впаттен віжіалі: hidden;*/
 }
@@ -148,10 +161,9 @@ letter-spacing: 0.02em;
 
 .link-one-portfolio {
     display: flex;
-    
-   
     margin-bottom: 72px;
-    justify-content: center;  
+    justify-content: center; 
+    gap: 24px; 
 }
 
 .all {
@@ -161,18 +173,13 @@ font-weight: 600;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
-
-
-
 height: 48px;
-padding-top: 12px;
 padding-right: 24px;
-padding-bottom: 12px;
 padding-left: 24px;
 
-
-
 }
+
+
 
 
 
@@ -181,15 +188,10 @@ padding-left: 24px;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.04em;
-
-
-
 box-sizing: border-box;
 height: 48px;
 text-align: center;
 
-padding-left: 24px;
-padding-right: 24px;
 
 
 }
@@ -207,12 +209,13 @@ box-sizing: border-box;
 flex-direction: row;
 justify-content: center;
 align-items: center;
-padding-left: 24px;
 padding-right: 24px;
+padding-left: 24px;
+
 height: 48px;
 
 }
-.desing {
+.desings {
     color: #4D5AE5;
     font-weight: 600;
 font-size: 16px;
@@ -223,8 +226,7 @@ box-sizing: border-box;
 flex-direction: row;
 justify-content: center;
 align-items: center;
-padding-left: 24px;
-padding-right: 24px;
+
 height: 48px;
 
 }
@@ -240,9 +242,6 @@ box-sizing: border-box;
 flex-direction: row;
 justify-content: center;
 align-items: center;
-padding-left: 24px;
-padding-right: 24px;
-
 height: 48px;
 
 }
@@ -302,7 +301,7 @@ margin-top: 8px;
     display: flex;
       
 }
-.logo {
+.logo-footer {
     font-family: 'Raleway', sans-serif;
     
 }
@@ -580,6 +579,18 @@ flex: none;
 order: 1;
 flex-grow: 0;
 }
+
+
+
+
+.seconds-what{
+
+    padding-bottom: 120px;
+}
+
+
+
+
 .title-second {
     color: #2E2F42;
     font-weight: 600;
@@ -619,7 +630,7 @@ flex-grow: 0;
 .seconds-our {
 
     padding-bottom: 120px;
-    padding-top: 240px;
+    padding-top: 120px;
 
 }
 
@@ -657,7 +668,6 @@ margin-bottom: 72px;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
-margin-top: 32px;
 text-align: center;
 
 }
@@ -668,7 +678,7 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 margin-top: 8px;
 text-align: center;
-margin-bottom: 32px;
+
 }
 .type-title-second {
     background: #FFFFFF;
@@ -691,13 +701,13 @@ margin-bottom: 32px;
     padding-top: 100px;
     padding-bottom: 100px;
     
-    display: flex;
+  
     
 
 
 }
 
-.logo {
+.logo-footer {
     color: #4D5AE5;
    
 font-weight: 800;
